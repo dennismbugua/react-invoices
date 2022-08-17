@@ -1,0 +1,114 @@
+.container{
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.add-invoice-container {
+    padding: 24px 16px;
+    border: 1px solid #eee;
+    border-radius: 4px;
+    flex:2;
+}
+
+.add-invoice-container h2 {
+    background-color: #222;
+    color:#fff;
+    border-radius: 4px;
+    padding:12px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.add-invoice-container input{
+    margin-top: 4px;
+}
+
+.add-invoice-container label{
+    margin-top: 24px;
+}
+
+.add-invoice-container button{
+    margin-top: 24px;
+    color:#fff;
+    background-color: rgb(41, 41, 41);
+}
+
+.invoice-output{
+    margin-left: 16px;
+    padding: 24px 16px;
+    border: 1px solid #eee;
+    border-radius: 4px;
+    flex:1;
+}
+
+.invoice-output h2{
+    font-size: 24px;
+    font-weight: 600;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 16px;
+    margin-bottom: 32px;
+}
+
+.text-alert{
+    background-color: rgba(255, 110, 110, 0.74);
+    padding:12px;
+    border-radius: 4px;
+    color:#b92929;
+    text-align: center;
+}
+
+.long-description{
+    padding-top: 16px;
+    border-top: 1px solid #eee;
+}
+
+.table{
+    margin-top: 24px;
+    border-bottom: 1px solid transparent !important;
+}
+.table thead tr th{
+    border-bottom: 1px solid rgb(235, 235, 235) !important;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.table tbody tr td{
+    padding-left: 0px !important;
+}
+.table tbody tr td:last-child{
+    padding-right: 0px !important;
+}
+.table button,input{
+    margin-top: 0px !important;
+}
+
+button[disabled]{
+    background-color: #cccccc;
+    color: #ffffff;
+    cursor: no-drop !important;
+  }
+
+  
+#animate {
+    position: absolute;
+    left: 50%;
+    top: -60px;
+    transform: translate(-50%);
+    border-radius: 4px;
+    color:#fff;
+    padding:12px;
+    font-size:15px;
+    background: green;
+  }
+  
+.animate-error{
+    background: red !important;
+}
+.animate-success{
+    background: green;
+}
+
+  @keyframes move {
+    50% {
+       top: 60px;
+    }
+  }

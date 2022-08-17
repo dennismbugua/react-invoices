@@ -1,0 +1,35 @@
+.AddLineOutput {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 0.35fr;
+    padding-bottom: 12px;
+    margin-bottom: 12px;
+    border-bottom: 1px solid #eee;
+    align-items: center;
+}
+
+.AddLineOutput:last-child{
+    border-bottom: 0px !important;
+    padding-bottom: 0px !important;
+    margin-bottom: 0px !important;
+}
+
+.AddLineOutput button {
+    background: none;
+    color: #222;
+    margin-top: 0px !important;
+    text-align: right;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+}
+
+.AddLineOutput button svg{
+    width: 16px;
+}
+
+.AddLineOutput p {
+    width: 100%;
+    margin-bottom: 0rem;
+}

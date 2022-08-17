@@ -1,0 +1,10 @@
+.actions button{
+    background: none;
+    width: auto;
+}
+
+.description{
+    font-style: italic;
+    font-size: 14.5px;
+    margin-bottom: 16px !important;
+}

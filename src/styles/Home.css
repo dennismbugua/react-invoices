@@ -1,0 +1,157 @@
+.invoice-container {
+    border: 1px solid #eee;
+    padding: 12px;
+    border-radius: 6px 6px 0px 0px !important;
+}
+
+h3,
+p {
+    margin-bottom: 0rem !important;
+}
+
+.container-consumer .consumer-info {
+    margin-bottom: 12px;
+}
+
+.container-consumer .consumer-info svg{
+    width: 16px;
+    margin-left: 8px;
+}
+
+.container-consumer .consumer-info h3 {
+    font-size: 24px;
+}
+
+.container-consumer .consumer-info p {
+    font-size: 13px;
+    margin-left: 8px;
+    background: #ececec;
+    border-radius: 4px;
+    color:#222;
+    padding:4px 8px;
+    font-style: italic;
+}
+.search-invoice{
+    height: 48px;
+    padding-left: 48px;
+}
+.accordion{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+.bill-to{
+    font-size: 15px ;
+}
+.card{
+    border:none !important;
+}
+.card-header{
+    padding:0px !important;
+    border-bottom: 0px !important;
+    background: none !important;
+    cursor: pointer;
+}
+
+.card-body{
+    border:1px solid #eee;
+    border-top: none !important;
+}
+.card-body tr{
+    border-bottom: 1px solid #eee;
+}
+
+.card-body tr:last-child{
+    border-bottom: 1px solid transparent !important;
+}
+
+.table{
+    margin:0px !important;
+}
+
+
+.table thead tr th:nth-child(3){
+    text-align: center;
+}
+
+.table tbody tr td:nth-child(3){
+    text-align: center;
+}
+
+.table thead tr th:last-child{
+    text-align: right;
+}
+
+.table tbody tr td:last-child{
+    text-align: right;
+}
+
+.search{
+    position: relative;
+}
+
+.search .search-icon{
+    position: absolute;
+    top: 50%;
+    left: 12px;
+    transform: translateY(-50%);
+}
+
+.u-red-txt{
+    color:#fff;
+    background: rgb(255, 0, 0);
+    padding:4px 16px;
+    border-radius: 4px;
+}
+
+.u-green-txt{
+    color:#fff;
+    background: rgb(13, 216, 6);
+    padding:4px 16px;
+    border-radius: 4px;
+
+}
+
+.u-yellow-txt{
+    color:#fff;
+    background: rgb(255, 196, 0);
+    padding:4px 16px;
+    border-radius: 4px;
+
+}
+
+.u-orange-txt{
+    color:#fff;
+    background: rgb(255, 107, 48);
+    padding:4px 16px;
+    border-radius: 4px;
+
+}
+
+.base-header{
+    margin-top: 48px;
+}
+
+.base-header h2{
+    font-style: 28px;
+}
+
+.base-header .header-border{
+    width: 32px;
+    height: 3px;
+    background: #222;
+}
+
+@media (max-width: 991px){
+    .invoice-container{
+        flex-direction: column;
+    }
+    .container-consumer{
+        margin-bottom: 16px;
+    }
+    .invoice-container div .actions{
+        margin-top: 8px;
+        justify-content: flex-start !important;
+    }
+  
+}
+

@@ -1,0 +1,20 @@
+.navbar{
+    background-color: #222;
+    color:#fff;
+    padding:16px 16px !important;
+}
+.navbar .nav-item-logo{
+    font-size: 24px;
+    color:#fff;
+}
+
+.navbar .nav-item-logo:hover{
+    color:#fff;
+}
+.navbar .nav-item-link{
+    color:#fff;
+}
+
+.navbar a:hover{
+    color:rgb(194, 194, 194);
+}
